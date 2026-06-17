@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --kyron-green: #2d6a4f;
+  --kyron-green-light: #40916c;
+  --kyron-amber: #f4a261;
+  --kyron-red: #e63946;
+  --kyron-slate: #1b263b;
+  --kyron-bg: #f8faf9;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: var(--kyron-bg);
+  color: var(--kyron-slate);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
